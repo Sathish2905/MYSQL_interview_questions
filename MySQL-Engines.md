@@ -76,5 +76,4 @@ Savepoints: NO
   Transactions: NO
   XA: NO
   Savepoints: NO
-  ...
-  **/
+
