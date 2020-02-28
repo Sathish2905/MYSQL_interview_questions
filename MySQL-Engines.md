@@ -1,5 +1,3 @@
-/**
-
 InnoDB:    The default storage engine in MySQL 8.0. InnoDB is a transaction-safe (ACID compliant) storage engine for MySQL 
            that has commit, rollback, and crash-recovery capabilities to protect user data. InnoDB row-level locking 
            (without escalation to coarser granularity locks) and Oracle-style consistent nonlocking reads increase multi-user 
@@ -36,11 +34,11 @@ Example:   This engine serves as an example in the MySQL source code that illust
            It is primarily of interest to developers. The storage engine is a “stub” that does nothing. You can create tables with this engine, but no data can be stored in them or retrieved from them.
 
 
-**/
 
-mysql > SHOW ENGINES\G;
+### mysql > SHOW ENGINES\G;
 
-//***
+
+
 ************************ 1. row ***************************
 Engine: PERFORMANCE_SCHEMA
 Support: YES
@@ -48,6 +46,7 @@ Comment: Performance Schema
 Transactions: NO
 XA: NO
 Savepoints: NO
+
 *************************** 2. row ***************************
   Engine: InnoDB
   Support: DEFAULT
@@ -55,6 +54,7 @@ Savepoints: NO
   Transactions: YES
   XA: YES
   Savepoints: YES
+  
   *************************** 3. row ***************************
   Engine: MRG_MYISAM
   Support: YES
@@ -62,6 +62,7 @@ Savepoints: NO
   Transactions: NO
   XA: NO
   Savepoints: NO
+  
   *************************** 4. row ***************************
   Engine: BLACKHOLE
   Support: YES
@@ -69,6 +70,7 @@ Savepoints: NO
   Transactions: NO
   XA: NO
   Savepoints: NO
+  
   *************************** 5. row ***************************
   Engine: MyISAM
   Support: YES
