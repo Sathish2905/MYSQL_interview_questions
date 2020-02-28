@@ -6,6 +6,12 @@
 
 * *[MySQL Queries](mysql-queries.md)*
 * *[rdbms-questions](rdbms-questions.md)*
+* *[MySQL Basics](MySQL Basics.md)*
+* *[MySQL Engines](MySQL Engines.md)*
+* *[MySQL Stored Routines](MySQL Stored Routines.md)*
+* *[MySQL Transaction](MySQL Transaction.md)*
+* *[MySQL Triggers](MySQL Triggers.md)*
+* *[MySQL View](MySQL View.md)*
 
 
 #### Q. What are indexes in a Database? What are the types of indexes?
