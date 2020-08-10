@@ -1,6 +1,4 @@
-Query below lists tables with their triggers.
 
-Query
 select event_object_schema as database_name,
        event_object_table as table_name,
        trigger_name,
